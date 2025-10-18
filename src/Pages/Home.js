@@ -47,63 +47,6 @@ const Home = () => {
               multiTextLoop
             />
           </div>
-          <div className="social">
-            <a
-              className="link"
-              href="https://www.facebook.com/narender.singhbisht.3538"
-              rel="noreferrer"
-              target="_blank"
-              aria-label="facebook"
-             
-            >
-              <FaFacebook data-aos="fade-up"
-              data-aos-delay="100"/>
-            </a>
-            <a
-              className="link"
-              href="https://www.instagram.com/artist_narender/"
-              rel="noreferrer"
-              target="_blank"
-              aria-label="instagram"
-            
-            >
-              <FaInstagram   data-aos="fade-up"
-              data-aos-delay="200" />
-            </a>
-            <a
-              className="link"
-              href="https://www.linkedin.com/in/narender-singh-bisht-4529051b7/"
-              rel="noreferrer"
-              target="_blank"
-              aria-label="linkedin"
-              
-            >
-              <FaLinkedin data-aos="fade-up"
-              data-aos-delay="300" />
-            </a>
-            <a
-              className="link"
-              href="https://twitter.com/Narender343872"
-              rel="noreferrer"
-              target="_blank"
-              aria-label="twitter"
-              
-            >
-              <FaTwitter data-aos="fade-up"
-              data-aos-delay="400" />
-            </a>
-            <a
-              className="link"
-              href="https://github.com/narendercoder"
-              rel="noreferrer"
-              target="_blank"
-              aria-label="github"
-             
-            >
-              <FaGithub  data-aos="fade-up"
-              data-aos-delay="500" />
-            </a>
-          </div>
           <div className="links">
             <a
               href="/assets/Resume.pdf"
