@@ -41,7 +41,7 @@ const Home = () => {
               }}
               startDelay={2000}
               cursorColor="#78cc6d"
-              multiText={["Developer", "Digital Artist", "Student", "Learner"]}
+              multiText={["Senior Full stack developer", "Senior Blockchain developer", "Always learning new things", "Coding is my passion"]}
               multiTextDelay={1000}
               typeSpeed={50}
               multiTextLoop
