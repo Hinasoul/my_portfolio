@@ -64,7 +64,7 @@ function Contact() {
               in Touch
             </div>
             <div className="row">
-              <div className="col col-12 border-line-v ">
+              {/* <div className="col col-12 border-line-v ">
                
                     <div className="map">
                       <div style={{ width: "100%" }}>
@@ -87,7 +87,27 @@ function Contact() {
                       </div>
                     </div>
                   
+              </div> */}
+              <div className="col col-12 border-line-v">
+                <div className="map">
+                  <div style={{ width: "100%" }}>
+                    <iframe
+                      title="map"
+                      width="100%"
+                      height="300"
+                      frameBorder="0"
+                      scrolling="no"
+                      marginHeight="0"
+                      marginWidth="0"
+                      loading="lazy"
+                      src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=pt-BR&amp;q=Avenida%20Get%C3%BAlio%20Vargas,%20Concei%C3%A7%C3%A3o%20do%20Jacu%C3%ADpe,%20Bahia%2044245-000&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    >
+                      <a href="https://www.gps.ie/farm-gps/">GPS Navigation</a>
+                    </iframe>
+                  </div>
+                </div>
               </div>
+
             </div>
             <div className="content contacts">
               <div className="title">
