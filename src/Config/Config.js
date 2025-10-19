@@ -107,84 +107,77 @@ export const SkillSet = [
 ]
 
 export const ProjImg = [
+
     {
         id: "1",
-        name: "Bhagavad Gita",
-        category: "react",
-        imgsrc: "projectImg/react/p_01.jpg",
-        href: "https://bhagavad-gita-gyan.vercel.app/"
+        name: "Tannerbolt",
+        category: "web",
+        imgsrc: "projectImg/web/p_7.jpg",
+        href: "https://www.tannerbolt.com/"
     },
     {
         id: "2",
-        name: "NotePlus",
-        category: "react",
-        imgsrc: "projectImg/react/p_7.png",
-        href: "https://note-plus-react.vercel.app"
+        name: "Driveraymond",
+        category: "web",
+        imgsrc: "projectImg/web/p_0.jpg",
+        href: "https://www.driveraymond.com/"
     },
     {
         id: "3",
-        name: "Pokemon-app",
-        category: "react",
-        imgsrc: "projectImg/react/p_0.jpg",
-        href: "https://react-pokemon-app1.netlify.app/"
+        name: "Asaas",
+        category: "web",
+        imgsrc: "projectImg/web/p_01.jpg",
+        href: "http://asaas.com/"
     },
     {
         id: "4",
-        name: "Crypto-Tracker",
-        category: "react",
-        imgsrc: "projectImg/react/p_1.jpg",
-        href: "https://crypto-tracker1.netlify.app/"
+        name: "Dsdinsuranc",
+        category: "web",
+        imgsrc: "projectImg/web/p_4.jpg",
+        href: "https://www.acrisure.com/southeast"
     },
     {
         id: "5",
-        name: "Weather-app",
-        category: "react",
-        imgsrc: "projectImg/react/p_2.jpg",
-        href: "https://weather-app-132.netlify.app/"
+        name: "Forgecode",
+        category: "web",
+        imgsrc: "projectImg/web/p_2.jpg",
+        href: "https://forgecode.com.br/"
     },
     {
         id: "6",
-        name: "Snake Game",
-        category: "javascript",
-        imgsrc: "projectImg/js/p_0.jpg",
-        href: "https://narendercoder.github.io/Snake-Game/"
+        name: "Aviator",
+        category: "Blockchain",
+        imgsrc: "projectImg/blockchain//p_8.jpg",
+        href: "https://aviator.ac/"
     },
     {
         id: "7",
-        name: "Spotify",
-        category: "javascript",
-        imgsrc: "projectImg/js/p_1.jpg",
-        href: "https://narendercoder.github.io/Spotify/"
+        name: "Picpay",
+        category: "web",
+        imgsrc: "projectImg/web//p_1.jpg",
+        href: "https://picpay.com/"
     },
     {
         id: "8",
-        name: "Todolist",
-        category: "react",
-        imgsrc: "projectImg/react/p_4.jpg",
-        href: "https://todolist82.netlify.app/"
+        name: "Magic Eden",
+        category: "Blockchain",
+        imgsrc: "projectImg/blockchain//p_6.jpg",
+        href: "https://magiceden.us/"
     },
     {
         id: "9",
-        name: "Tic-Tac-toe",
-        category: "javascript",
-        imgsrc: "projectImg/js/p_2.jpg",
-        href: "https://narendercoder.github.io/Tic_Tac_Toe/"
+        name: "Xname",
+        category: "Blockchain",
+        imgsrc: "projectImg/blockchain//p_9.jpg",
+        href: "https://xname.app/"
     },
     {
         id: "10",
-        name: "E-talk",
-        category: "react",
-        imgsrc: "projectImg/react/p_5.png",
-        href: "https://e-talk.vercel.app/"
+        name: "Archer Hunter",
+        category: "Blockchain",
+        imgsrc: "projectImg/blockchain/p_10.jpg",
+        href: "https://archerhunter.io/"
     },
-    {
-        id: "11",
-        name: "E-commerce",
-        category: "react",
-        imgsrc: "projectImg/react/p_6.png",
-        href: "https://e-trade.netlify.app/"
-    },
-
 ]
 export const Experience = [
 
