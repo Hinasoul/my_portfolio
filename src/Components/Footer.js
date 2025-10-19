@@ -8,10 +8,10 @@ const Footer = () => {
       <div className="f-container">
         <div className="f-credits">
           <p>
-           ©️ 2022 All rights reserved | 
+           ©️ 2025 All rights reserved | 
           </p>
-          <p> designed with <span className="text-white">❤️</span> by <span className="highlight">Narender
-            Singh Bisht</span></p>
+          <p> designed with <span className="text-white">❤️</span> by <span className="highlight">Juan 
+            Oliveira</span></p>
         </div>
       </div>
     </div>
