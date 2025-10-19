@@ -1,5 +1,5 @@
 import { BiCodeAlt } from 'react-icons/bi';
-import { IoBrushOutline } from 'react-icons/io5';
+import { IoLogoBitcoin } from 'react-icons/io5';
 
 export const SkillSet=[
     {
@@ -234,11 +234,11 @@ export const Services=[
         id: 1,
          icon: <BiCodeAlt />,
          name: "Web Development",
-         desc: "develop creative and responsive website layouts",
+         desc: "build responsive and user-friendly web applications",
     },
     {   id: 2,
-        icon: <IoBrushOutline/>,
-        name: "Digital Art",
-        desc: "",
+        icon: <IoLogoBitcoin/>,
+        name: "Blockchain Development",
+        desc: "build secure and scalable blockchain applications",
     }
 ]

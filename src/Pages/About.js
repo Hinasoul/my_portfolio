@@ -1,108 +1,54 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Services } from "../Config/Config";
 import styled from "styled-components";
 
 function About() {
-  const [age, setAge] = useState("");
-  const yearOfBirth = "2001";
-  const getAge = () => {
-    setAge(new Date().getFullYear() - yearOfBirth);
-  };
-  useEffect(() => {
-    getAge();
-  });
   return (
-    <Wrapper className="about-section">  
+    <Wrapper className="about-section">
       <div className="card-inner">
         <div className="card-wrap">
           <div className="content about">
-            <div className="title"  data-aos="fade-up">
+            <div className="title" data-aos="fade-up">
               <span className="first-word">About </span>
               Me
             </div>
             <div className="row">
               <div className="col col-6 border-line-v">
-                <div className="text-box"  data-aos="fade-up">
+                <div className="text-box" data-aos="fade-up">
                   <p>
-                    <b>I'm</b>{" "} {new Date().getFullYear() <=2024 ? ` a ${new Date().getFullYear() - 2020}${new Date().getFullYear() < 4 ? "th" : "rd" } year B.tech student pursuing ` : "graduated"}
-                    Electrical and Electronics Engineering from Maharaja Agrasen Institute of Technology. I like Doing coding and making web development related projects
-                    the simple and minimalistic design and I also love learning new things and technologies. 
-                    I'm also a digital artist by passion.
+                    I'm a Senior Full-Stack & blockchain Developer with over 10 years of experience creating scalable and reliable web applications. <br />
+                    My expertise includes React, Next.js, Node.js, TypeScript, Python, and Go for building high-performance front and back ends.<br />
+                    I've delivered SaaS platforms, dashboards, and APIs with clean architecture and strong business alignment.
+                    I also specialize in blockchain integration, connecting modern web apps with secure decentralized systems.<br />
+                    I excel at creating user-friendly, scalable blockchainapplications that drive business value and enhance user engagement.
                   </p>
-                </div>
-              </div>
-              <div className="col col-6 border-line-v">
-                <div className="info-list"  data-aos="fade-up">
-                  <ul>
-                    <li>
-                      <strong>Age: </strong>
-                      {age}
-                    </li>
-                    <li>
-                      <strong>Birthday: </strong>22 April 2001
-                    </li>
-                    <li>
-                      <strong>Hometown: </strong>Pithoragarh, Uttarakhand
-                    </li>
-                    <li>
-                      <strong>Gmail: </strong>narendersinghbisht382@gmail.com
-                    </li>
-                    <li>
-                      <strong>Residence: </strong>Delhi, India
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
           </div>
-  
+
           <div className="content services">
             <div className="title">
               <span className="first-word">My{" "}</span>Services
             </div>
             <div className="row service-items border-line-v" >
-            {Services.map((val,ind)=>(
-                    <div key={ind} className="col col-6 border-line-h" >
-                      <div className="service-item">
-                        <div className="icon">
-                          <span>
-                            {val.icon}
-                          </span>
-                        </div>
-                        <div className="name"><span>{val.name}</span></div>
-                        <div className="desc">
-                        <div>
+              {Services.map((val, ind) => (
+                <div key={ind} className="col col-6 border-line-h" >
+                  <div className="service-item">
+                    <div className="icon">
+                      <span>
+                        {val.icon}
+                      </span>
+                    </div>
+                    <div className="name"><span>{val.name}</span></div>
+                    <div className="desc">
+                      <div>
                         <p>{val.desc}</p>
-                        </div>
-                        </div>
                       </div>
                     </div>
-            ))}
-            </div>
-          </div>
-          <div className="content hobby">
-            <div className="title">
-              <span>Hobbies</span>
-            </div>
-            <div className="row">
-              <div className="col col-6 border-line-v">
-                <div className="hobby-list">
-                  <ul>
-                    <li>
-                      <strong>Digital Art</strong>
-                    </li>
-                    <li>
-                      <strong>Coding</strong>
-                    </li>
-                    <li>
-                      <strong>Travelling</strong>
-                    </li>
-                    <li>
-                      <strong>Reading</strong>
-                    </li>
-                  </ul>
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
