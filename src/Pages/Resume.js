@@ -34,9 +34,9 @@ function Resume() {
                         }
                         data-aos="fade-up" data-aos-delay={(ind+1)*100}
                       >
-                        <div className="date">{val.date}</div>
                         <div className="name">{val.name}</div>
                         <div className="company">{val.company}</div>
+                        <div className="date">{val.date}</div>
                         <div className="experience-desc">
                           <ul>
                             {val.desc.map((val) => (
@@ -67,9 +67,9 @@ function Resume() {
                         }
                         data-aos="fade-up" data-aos-delay={(ind+1)*100}
                       >
-                        <div className="date">{val.date}</div>
                         <div className="name">{val.name}</div>
                         <div className="company">{val.company}</div>
+                        <div className="date">{val.date}</div>
                         <p>{val.desc}</p>
                       </div>
                     ))}
