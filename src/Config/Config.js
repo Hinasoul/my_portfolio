@@ -14,23 +14,23 @@ export const SkillSet = [
     },
     {
         id: "3",
-        name: "HTML 5",
-        imgsrc: "images/HTML5.png"
-    },
-    {
-        id: "4",
-        name: "CSS 3",
-        imgsrc: "images/CSS3.png"
-    },
-    {
-        id: "5",
         name: "Javascript",
         imgsrc: "images/javascript.png"
     },
     {
-        id: "6",
+        id: "4",
+        name: "Typescript",
+        imgsrc: "images/Typescript.png"
+    },
+    {
+        id: "5",
         name: "Bootstrap",
         imgsrc: "images/Bootstrap.png"
+    },
+    {
+        id: "6",
+        name: "Tailwind CSS",
+        imgsrc: "images/Tailwind CSS.png"
     },
     {
         id: "7",
@@ -39,71 +39,71 @@ export const SkillSet = [
     },
     {
         id: "8",
-        name: "Material-ui",
-        imgsrc: "images/Material-ui.png"
+        name: "NextJs",
+        imgsrc: "images/Nextjs-logo.svg"
     },
     {
         id: "9",
-        name: "Sass",
-        imgsrc: "images/SASS.png"
+        name: "Angular",
+        imgsrc: "images/Angular.png"
     },
     {
         id: "10",
+        name: "Material-ui",
+        imgsrc: "images/Material-ui.png"
+    },
+
+    {
+        id: "11",
         name: "Node Js",
         imgsrc: "images/nodejs.png"
     },
     {
-        id: "11",
+        id: "12",
         name: "Express",
         imgsrc: "images/express.png"
     },
     {
-        id: "12",
-        name: "Next Js",
-        imgsrc: "images/Nextjs-logo.svg"
-    },
-    {
         id: "13",
+        name: "Nest Js",
+        imgsrc: "images/Nest.js.png"
+    },
+
+    {
+        id: "14",
         name: "MongoDB",
         imgsrc: "images/mongodb.png"
     },
     {
-        id: "14",
+        id: "15",
         name: "MySQL",
         imgsrc: "images/mysql.png"
     },
     {
-        id: "15",
-        name: "Github",
-        imgsrc: "images/github.png"
-    },
-    {
         id: "16",
-        name: "Firebase",
-        imgsrc: "images/firebase.png"
+        name: "AWS",
+        imgsrc: "images/AWS.png"
     },
     {
         id: "17",
-        name: "Netlify",
-        imgsrc: "images/netlify.png"
+        name: "Solidity",
+        imgsrc: "images/Solidity.png"
     },
     {
         id: "18",
-        name: "Illustrator",
-        imgsrc: "images/Illustrator.png"
+        name: "Rust",
+        imgsrc: "images/Rust.png"
     },
-
     {
         id: "19",
-        name: "Photoshop",
-        imgsrc: "images/Photoshop.png"
+        name: "Go",
+        imgsrc: "images/Go.png"
     },
     {
         id: "20",
-        name: "Canva",
-        imgsrc: "images/canva.png"
+        name: "Python",
+        imgsrc: "images/Python.png"
     },
-
 ]
 
 export const ProjImg = [
